@@ -1,0 +1,88 @@
+/* Estilos generales */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #eaf2f8;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos para el encabezado principal */
+#header {
+    background-color: #2c3e50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.titulo-principal {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+/* Sección de introducción */
+#introduccion {
+    padding: 20px;
+    text-align: center;
+}
+
+.subtitulo {
+    color: #34495e;
+    font-size: 1.8em;
+}
+
+.descripcion {
+    font-size: 1.2em;
+    color: #555;
+}
+
+/* Lista de pasatiempos */
+#pasatiempos {
+    padding: 20px;
+    background-color: #f7f9f9;
+}
+
+.lista {
+    list-style-type: square;
+    padding-left: 40px;
+    font-size: 1.1em;
+}
+
+/* Formulario de contacto */
+#formulario-contacto {
+    padding: 20px;
+    background-color: #ffffff;
+    margin: 20px auto;
+    width: 80%;
+    max-width: 500px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#contacto label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+    color: #2c3e50;
+}
+
+#contacto input[type="text"],
+#contacto input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#contacto input[type="submit"] {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#contacto input[type="submit"]:hover {
+    background-color: #2980b9;
+}
